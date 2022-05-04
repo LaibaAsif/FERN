@@ -1,0 +1,60 @@
+Mesh Preparation:  0 hr 0 min 0 sec
+Checking Joint contact (joints found will be imprinted while meshing):  0 hr 0 min 1 sec
+Creating midsurfaces by SW:  0 hr 0 min 0 sec
+Standard solid mesh joint imprint:  0 hr 0 min 0 sec
+Standard solid mesh assembly imprint:  0 hr 0 min 0 sec
+Standard solid mesh bolt head imprint and hard point processing:  0 hr 0 min 0 sec
+Standard solid mesh total preparation including imprint:  0 hr 0 min 0 sec
+Standard surface meshing for Solid Mesh:  0 hr 0 min 3 sec
+Standard volume meshing for Solid Mesh:  0 hr 0 min 2 sec
+Standard solid mesh arranging data:  0 hr 0 min 0 sec
+Standard solid mesh total:  0 hr 0 min 3 sec
+Re-align shell mesh and normal, jacobian check:  0 hr 0 min 0 sec
+Standard (non-midsurf) shell mesh total:  0 hr 0 min 0 sec
+Standard midsurf mesh total:  0 hr 0 min 0 sec
+Beam mesh:  0 hr 0 min 1 sec
+Mesh Preparation:  0 hr 0 min 0 sec
+Checking Joint contact (joints found will be imprinted while meshing):  0 hr 0 min 0 sec
+Creating midsurfaces by SW:  0 hr 0 min 0 sec
+Standard solid mesh joint imprint:  0 hr 0 min 0 sec
+Standard solid mesh assembly imprint:  0 hr 0 min 0 sec
+Standard solid mesh bolt head imprint and hard point processing:  0 hr 0 min 0 sec
+Standard solid mesh total preparation including imprint:  0 hr 0 min 0 sec
+Standard surface meshing for Solid Mesh:  0 hr 0 min 3 sec
+Standard volume meshing for Solid Mesh:  0 hr 0 min 2 sec
+Standard solid mesh arranging data:  0 hr 0 min 0 sec
+Standard solid mesh total:  0 hr 0 min 3 sec
+Re-align shell mesh and normal, jacobian check:  0 hr 0 min 0 sec
+Standard (non-midsurf) shell mesh total:  0 hr 0 min 0 sec
+Standard midsurf mesh total:  0 hr 0 min 0 sec
+Beam mesh:  0 hr 0 min 1 sec
+Mesh Preparation:  0 hr 0 min 0 sec
+Checking Joint contact (joints found will be imprinted while meshing):  0 hr 0 min 0 sec
+Creating midsurfaces by SW:  0 hr 0 min 0 sec
+Standard solid mesh joint imprint:  0 hr 0 min 0 sec
+Standard solid mesh assembly imprint:  0 hr 0 min 0 sec
+Standard solid mesh bolt head imprint and hard point processing:  0 hr 0 min 0 sec
+Standard solid mesh total preparation including imprint:  0 hr 0 min 1 sec
+Standard surface meshing for Solid Mesh:  0 hr 0 min 2 sec
+Standard volume meshing for Solid Mesh:  0 hr 0 min 2 sec
+Standard solid mesh arranging data:  0 hr 0 min 0 sec
+Standard solid mesh total:  0 hr 0 min 3 sec
+Re-align shell mesh and normal, jacobian check:  0 hr 0 min 0 sec
+Standard (non-midsurf) shell mesh total:  0 hr 0 min 0 sec
+Standard midsurf mesh total:  0 hr 0 min 0 sec
+Beam mesh:  0 hr 0 min 1 sec
+Mesh Preparation:  0 hr 0 min 0 sec
+Checking Joint contact (joints found will be imprinted while meshing):  0 hr 0 min 0 sec
+Creating midsurfaces by SW:  0 hr 0 min 0 sec
+Standard solid mesh joint imprint:  0 hr 0 min 0 sec
+Standard solid mesh assembly imprint:  0 hr 0 min 0 sec
+Standard solid mesh bolt head imprint and hard point processing:  0 hr 0 min 0 sec
+Standard solid mesh total preparation including imprint:  0 hr 0 min 0 sec
+Standard surface meshing for Solid Mesh:  0 hr 0 min 2 sec
+Standard volume meshing for Solid Mesh:  0 hr 0 min 0 sec
+Standard solid mesh arranging data:  0 hr 0 min 0 sec
+Standard solid mesh total:  0 hr 0 min 3 sec
+Re-align shell mesh and normal, jacobian check:  0 hr 0 min 0 sec
+Standard (non-midsurf) shell mesh total:  0 hr 0 min 0 sec
+Standard midsurf mesh total:  0 hr 0 min 0 sec
+Beam mesh:  0 hr 0 min 1 sec

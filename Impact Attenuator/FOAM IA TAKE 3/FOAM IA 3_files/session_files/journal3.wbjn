@@ -1,0 +1,23 @@
+# encoding: utf-8
+# 2019 R3
+SetScriptVersion(Version="19.5.112")
+template1 = GetTemplate(
+    TemplateName="Explicit Dynamics",
+    Solver="AUTODYN")
+system1 = GetSystem(Name="SYS")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/DR/Downloads/FERN/FOAM IA TAKE 3/FOAM IA.STEP")
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1.Edit()
+geometry1.Exit()
+model1.Exit()
+Save(Overwrite=True)

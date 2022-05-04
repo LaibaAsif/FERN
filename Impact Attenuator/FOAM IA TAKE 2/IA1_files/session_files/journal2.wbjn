@@ -1,0 +1,36 @@
+# encoding: utf-8
+# 2019 R3
+SetScriptVersion(Version="19.5.112")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="Hyperelastic Materials",
+    Source="Hyperelastic_Materials.xml")
+library2 = EngData.OpenLibrary(
+    Name="Composite Materials",
+    Source="Composite_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="PVC Foam (60 kg m^-3)",
+    Source="Composite_Materials.xml")
+library3 = EngData.OpenLibrary(
+    Name="Granta Design Sample Materials",
+    Source="Granta_Design_Typical_Materials.xml")
+matl2 = engineeringData1.ImportMaterial(
+    Name="Aluminum alloy, wrought",
+    Source="Granta_Design_Typical_Materials.xml")
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+geometry1.Exit()
+modelComponent1.Update(AllDependencies=True)
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)
